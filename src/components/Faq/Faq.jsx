@@ -6,34 +6,34 @@ const Faq = () => {
 
   const faqList = [
     {
-      title: "Is there a free trial available?",
+      title: "What is Zuvlo?",
       description:
-        "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+        "Zuvlo is a fan-site where creators can provide their audience with exclusive content and where they can interact with each other.",
     },
     {
-      title: "Can I change my plan later?",
+      title: "What are the fees on Zuvlo?",
       description:
-        "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+        "We're currently offering creators a 0% fee for their first 3 months on Zuvlo, and just 9% after that, making us one of the highest paying platforms in the whole industry.",
     },
     {
-      title: "What is your cancellation policy?",
+      title: "What features does Zuvlo have compared to other platforms?",
       description:
-        "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+        "Besides the basic functions of a fan-site, where you can sell subscriptions and PPV content, we also have features like - creating your own physical items store, creating your own clip store, having paid video calls with your fans, a For You page, and a ton more...",
     },
     {
-      title: "Can other info be added to an invoice?",
+      title: "Does Zuvlo offer chargeback protection?",
       description:
-        "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+        "Yes, we're offering all of our creators with full chargeback protection, because we know how annoying chargebacks can be for a content creator.",
     },
     {
-      title: "How does billing work?",
+      title: "What are the payout methods available Zuvlo?",
       description:
-        "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+        "At the moment we offer the following payout methods: Bank Transfer, Crypto (BTC, ETH, USDT and LTC), PayPal, Skrill, Paxum and Cosmo. If you require any additional payout methods then please get in touch with our support team.",
     },
     {
-      title: "How do I change my account email?",
+      title: "Does Zuvlo have a Brand Ambassador program?",
       description:
-        "Yes, you can try us for free for 30 days. If you want, we’ll provide you with a free, personalized 30-minute onboarding call to get you up and running as soon as possible.",
+        "Yes, we are still running our Brand Ambassador program, but we have a very limited amount of spots left, so please get in touch with our support team ASAP if you'd like to apply.",
     },
   ];
 

@@ -6,45 +6,45 @@ const Creators = () => {
   const creators = [
     {
       creator_img:
-        "https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=600",
-      creator_name: "Aitana Lopez",
-      creator_role: "AI Creator",
-      followers: "200k",
+        "https://fans.nyc3.cdn.digitaloceanspaces.com/photos/thesluttybraniac.jpg",
+      creator_name: "The Slutty Braniac",
+      creator_role: "Zuvlo Creator",
+      followers: "81k followers",
     },
     {
       creator_img:
-        "https://images.pexels.com/photos/432059/pexels-photo-432059.jpeg?auto=compress&cs=tinysrgb&w=600",
-      creator_name: "Sam Jones",
-      creator_role: "AI Creator",
-      followers: "508k",
+        "https://fans.nyc3.cdn.digitaloceanspaces.com/photos/micaelwilson%20(1).jpg",
+      creator_name: "Micael Wilson",
+      creator_role: "Zuvlo Creator",
+      followers: "83k followers",
     },
     {
       creator_img:
-        "https://images.pexels.com/photos/1553783/pexels-photo-1553783.jpeg?auto=compress&cs=tinysrgb&w=600",
-      creator_name: "Alex Garland",
-      creator_role: "AI Creator",
-      followers: "720k",
+        "https://fans.nyc3.cdn.digitaloceanspaces.com/photos/crazywifeslut.png",
+      creator_name: "CrazyWifeSlut",
+      creator_role: "Zuvlo Creator",
+      followers: "56k followers",
     },
     {
       creator_img:
-        "https://images.pexels.com/photos/839011/pexels-photo-839011.jpeg?auto=compress&cs=tinysrgb&w=600",
-      creator_name: "Devy Jonas",
-      creator_role: "AI Creator",
-      followers: "3M",
+        "https://fans.nyc3.cdn.digitaloceanspaces.com/photos/unmaskedtwinks.png",
+      creator_name: "UnmaskedTwinks",
+      creator_role: "Zuvlo Creator",
+      followers: "212k followers",
     },
     {
       creator_img:
-        "https://images.pexels.com/photos/977796/pexels-photo-977796.jpeg?auto=compress&cs=tinysrgb&w=600",
-      creator_name: "Jamal Sheikh",
-      creator_role: "AI Creator",
-      followers: "205k",
+        "https://fans.nyc3.cdn.digitaloceanspaces.com/photos/alexandrawett.png",
+      creator_name: "Alexandra Wett",
+      creator_role: "Zuvlo Creator",
+      followers: "105k followers",
     },
     {
       creator_img:
-        "https://images.pexels.com/photos/26852336/pexels-photo-26852336/free-photo-of-portrait-of-couple-sitting-together.jpeg?auto=compress&cs=tinysrgb&w=600",
-      creator_name: "Marty bliss",
-      creator_role: "AI Creator",
-      followers: "1M",
+        "https://fans.nyc3.cdn.digitaloceanspaces.com/photos/agathaferraz.jpeg",
+      creator_name: "Agatha Ferraz",
+      creator_role: "Zuvlo Creator",
+      followers: "97k followers",
     },
   ];
 

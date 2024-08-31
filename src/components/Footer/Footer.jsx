@@ -1,9 +1,9 @@
 import logo from "../../assets/images/main-logo.png";
 
-import { FaGithub } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
-import { FaLinkedin } from "react-icons/fa";
-import { FaSlack } from "react-icons/fa";
+import { FaReddit } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   const linkStyle = `p-1.5 flex items-center justify-center rounded-lg bg-[#FF2919] `;
@@ -27,24 +27,24 @@ const Footer = () => {
 
           {/* links wrapper */}
           <div className="flex items-center gap-6 ">
-            <a className={linkStyle} href="#">
+            <a className={linkStyle} href="https://www.instagram.com/realzuvlo/">
               <span className={linkIconStyle}>
-                <FaGithub />
+                <FaInstagram />
               </span>
             </a>
-            <a className={linkStyle} href="#">
+            <a className={linkStyle} href="https://x.com/realzuvlo">
               <span className={linkIconStyle}>
                 <BsTwitterX />
               </span>
             </a>
-            <a className={linkStyle} href="#">
+            <a className={linkStyle} href="https://www.reddit.com/r/zuvlo/">
               <span className={linkIconStyle}>
-                <FaLinkedin />
+                <FaReddit />
               </span>
             </a>
-            <a className={linkStyle} href="#">
+            <a className={linkStyle} href="https://www.facebook.com/realzuvlo">
               <span className={linkIconStyle}>
-                <FaSlack />
+                <FaFacebook />
               </span>
             </a>
           </div>
@@ -53,7 +53,7 @@ const Footer = () => {
         {/* right */}
         <div className=" px-5 xl:px-10 py-7 bg-[#262626] rounded-3xl max-w-[605px] ">
           <p className="text-base leading-6  text-[#A1A1A1]">
-            Sign up for our newsletter and join the growing Rig.dev community.
+            Sign up for our newsletter and join the growing Zuvlo community.
           </p>
 
           {/* newsletter form */}
@@ -85,10 +85,10 @@ const Footer = () => {
 
       {/* bottom */}
       <div className=" pt-5 xl:pt-10 flex flex-wrap justify-center xl:justify-start items-center  gap-y-4 gap-3 xl:gap-6 text-[14px] text-textBlackV2 leading-5  ">
-        <span>© {new Date().getFullYear()} Rig.Dev ApS</span>
+        <span>© {new Date().getFullYear()} Zuvlo</span>
 
-        <a href="#">Terms of Service</a>
-        <a href="#">Privacy & Cookies policy</a>
+        <a href="https://zuvlo.com/page/terms-of-service">Terms of Service</a>
+        <a href="https://zuvlo.com/page/privacy-policy">Privacy & Cookies policy</a>
       </div>
 
       {/* footer shape */}

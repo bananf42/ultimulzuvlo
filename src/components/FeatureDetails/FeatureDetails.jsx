@@ -7,25 +7,25 @@ import { useRef } from "react";
 const FeatureDetails = () => {
   const featureList = [
     {
-      category: "💸 Subscription",
+      category: "💸 Subscriptions",
       title: "Monetize Your Content Through Subscriptions",
       subtitle:
-        "Unlock Recurring Revenue by Offering Your Exclusive Content Behind a Paywall for Your Top Fans to Subscribe",
+        "Offer your fans the opportunity to subscribe to your content feed, either on a monthly or a yearly subscription.",
       highlightWord: "Subscriptions",
+    },
+    {
+      category: "🛍️ Your own store",
+      title: "Sell Physical or Digital Items in Your Personal Store",
+      subtitle:
+        "Boost your revenue by selling both physical and digital items to your fans.",
+      highlightWord: "Store",
     },
     {
       category: "💬 Messaging",
       title: "Engage with Your Fans Through Direct Messaging",
       subtitle:
-        "Engage with Your Fans via Direct Messages - Whether Paid or Free!",
+        "Engage with your fans via Direct Messages and sell them exclusive PPV content.",
       highlightWord: "Messaging",
-    },
-    {
-      category: "👀 Pay-to-view",
-      title: "Monetize Your Content with Pay-to-View Access",
-      subtitle:
-        "Boost Revenue by Upselling Your Most Exclusive Content with Pay-to-Views",
-      highlightWord: "Pay-to-View",
     },
   ];
 
@@ -55,46 +55,43 @@ const FeatureDetails = () => {
           {/* list */}
           <div className="flex flex-col">
             <div ref={elem1} className={featureHolder}>
-              <p className={featureIntro}>💸 Subscription</p>
+              <p className={featureIntro}>💸 Subscriptions</p>
               <h3 className={featureTitle}>
                 Monetize Your Content Through{" "}
                 <span className="text-pinkRed">Subscriptions</span>
               </h3>
               <p className={featureDesc}>
-                Unlock Recurring Revenue by Offering Your Exclusive Content
-                Behind a Paywall for Your Top Fans to Subscribe
+                Offer your fans the oppurtunity to subscribe to your content feed, either on a monthly or a yearly subscription.
               </p>
-              <a className={featureBtn} href="#">
+              <a className={featureBtn} href="https://zuvlo.com/auth/register">
                 {" "}
                 Sign Up
               </a>
             </div>
             <div ref={elem2} className={featureHolder}>
-              <p className={featureIntro}>💬 Messaging</p>
+              <p className={featureIntro}>🛍️ Your own store</p>
               <h3 className={featureTitle}>
-                Engage with Your Fans Through Direct{" "}
-                <span className="text-pinkRed">Messaging</span>
+                Sell Physical or Digital Items in Your Personal{" "}
+                <span className="text-pinkRed">Store</span>
               </h3>
               <p className={featureDesc}>
-                Engage with Your Fans via Direct Messages - Whether Paid or
-                Free!
+                Boost your revenue by selling both physical and digital items to your fans.
               </p>
-              <a className={featureBtn} href="#">
+              <a className={featureBtn} href="https://zuvlo.com/auth/register">
                 {" "}
                 Sign Up
               </a>
             </div>
             <div ref={elem3} className={featureHolder}>
-              <p className={featureIntro}>👀 Pay-to-view</p>
+              <p className={featureIntro}>💬 Messaging</p>
               <h3 className={featureTitle}>
-                Monetize Your Content with{" "}
-                <span className="text-pinkRed">Pay-to-View</span> Access
+                Engage with Your Fans Through Direct{" "}
+                <span className="text-pinkRed">Messaging</span> Access
               </h3>
               <p className={featureDesc}>
-                Boost Revenue by Upselling Your Most Exclusive Content with
-                Pay-to-Views
+                Engage with your fans via Direct Messages and sell them exclusive PPV content.
               </p>
-              <a className={featureBtn} href="#">
+              <a className={featureBtn} href="https://zuvlo.com/auth/register">
                 {" "}
                 Sign Up
               </a>

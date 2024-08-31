@@ -46,13 +46,10 @@ const Navbar = () => {
             isNavOpen ? `h-[200px]` : `h-0 py-0 xl:h-fit`
           } `}
         >
-          <a className={linkStyle} href="#">
-            Our Mission
-          </a>
-          <a className={linkStyle} href="#">
+          <a className={linkStyle} href="https://zuvlo.com/contact">
             Support
           </a>
-          <a className={linkStyle} href="#">
+          <a className={linkStyle} href="https://zuvlo.com/auth/login">
             Login
           </a>
           <SignUpBtn size="mx" url="https://zuvlo.vercel.app/" />

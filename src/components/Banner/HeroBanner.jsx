@@ -73,21 +73,20 @@ const HeroBanner = () => {
       {/* text area starts */}
       <div className="pb-0 xl:max-w-[60%] xl:pb-[250px] xlg:max-w-[70%] xlg:pb-[300px]">
         <h3 className="text-[32px] font-bold leading-[48px] text-black xl:text-[56px] xl:leading-[76px] xlg:text-[80px] xlg:leading-[100px]">
-          Join Forces, Innovate Freely, and Reap the Rewards
+          Highest payouts in the industry - 91%
         </h3>
 
         {/* text content */}
         <div className="space-y-6 pt-4 xl:max-w-[450px] xl:space-y-9 xl:pt-16">
           <p className="text-base leading-7 text-[#4c4b49] xl:text-[20px] xl:leading-8">
-            The creator subscription platform for the future. Sign up before the
-            end of the month &{" "}
-            <span className="text-textBlack">take home 85% for 3 months!</span>
+            🚀 Sign up now &{" "}
+            <span className="text-pinkRed">take home 100% for your first 3 months!</span>
           </p>
 
           {/* button wrapper */}
           <div className="flex gap-4">
             <SignUpBtn />
-            <SignUpBtn version="login" url="https://zuvlo.vercel.app/" />
+            <SignUpBtn version="login" url= "https://zuvlo.com/auth/login"/>
           </div>
         </div>
       </div>
@@ -104,7 +103,7 @@ const HeroBanner = () => {
         {/* content creators graphics */}
         <div className="absolute -left-[100px] top-[50%] min-w-fit -translate-y-[50%]">
           <p className="font-semibold leading-6 text-[#475467] xl:text-[16px] xlg:text-nowrap xlg:text-[20px]">
-            Trusted by 60,000+ Creators
+            Trusted by 11,000+ Creators
           </p>
 
           <img
