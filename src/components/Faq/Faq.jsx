@@ -46,7 +46,7 @@ const Faq = () => {
   };
 
   return (
-    <section className="container pb-[80px] xlg:pb-[250px]">
+    <section className="container pb-[80px] xlg:pb-[100px]">
       <div className="space-y-4 text-center xl:space-y-5">
         <h3 className="text-[32px] font-semibold leading-[48x] text-[#101828] xl:text-[44px] xl:leading-[56px] xlg:text-[64px] xlg:leading-[84px]">
           Frequently asked questions{" "}
