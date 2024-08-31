@@ -135,7 +135,7 @@ const GridFeature = () => {
             </div>
 
             {/* images */}
-            <div className="absolute -bottom-[140px] -right-5 h-[250px] w-[285px] xl:-bottom-[150px] xl:right-400 xl:h-[375px] xl:w-[375px]">
+            <div className="absolute -bottom-[140px] -right-[250px] h-[250px] w-[285px] xl:-bottom-[150px] xl:right-0 xl:h-[375px] xl:w-[375px]">
               <img
                 src={figure6}
                 alt=""
