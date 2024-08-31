@@ -50,7 +50,7 @@ const Creators = () => {
 
   return (
     <section className="py-[60px] xlg:py-[150px]">
-      <SectionTitle>Trusted by the{`world's`} biggest creators</SectionTitle>
+      <SectionTitle>Trusted by the {`world's`} biggest creators</SectionTitle>
 
       {/* creator slider area */}
       <div className="pt-[60px] xlg:pt-[120px]">

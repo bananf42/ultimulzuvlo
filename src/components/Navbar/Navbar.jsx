@@ -52,7 +52,7 @@ const Navbar = () => {
           <a className={linkStyle} href="https://zuvlo.com/auth/login">
             Login
           </a>
-          <SignUpBtn size="mx" url="https://zuvlo.vercel.app/" />
+          <SignUpBtn size="mx" url="https://zuvlo.com/auth/register" />
         </div>
       </div>
     </section>
