@@ -43,7 +43,7 @@ const Navbar = () => {
         <div
           ref={navlistRef}
           className={`flex xl:items-center gap-4  items-start  xl:gap-12 flex-col xl:flex-row absolute w-full sm:w-[60%] top-16 left-0 sm:left-auto sm:right-0 xl:relative xl:w-fit xl:top-auto xl:left-auto bg-white xl:bg-transparent p-4 xl:p-0 rounded-3xl xl:rounded-none duration-500 ease-in-out shadow-2xl xl:shadow-none overflow-hidden z-50 ${
-            isNavOpen ? `h-[200px]` : `h-0 py-0 xl:h-fit`
+            isNavOpen ? `h-[150px]` : `h-0 py-0 xl:h-fit`
           } `}
         >
           <a className={linkStyle} href="https://zuvlo.com/contact">
