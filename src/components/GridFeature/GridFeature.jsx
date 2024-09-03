@@ -26,7 +26,7 @@ const GridFeature = () => {
 
             {/* img wrapper */}
             <div className="my-2 xl:my-6">
-              <div className="h-[250px] w-[300px] xl:h-[388px] xl:w-[420px]">
+              <div className="h-[250px] w-[300px] xl:h-[388px] xl:w-full">
                 <img
                   className="h-full w-full object-contain"
                   src={figure1}
