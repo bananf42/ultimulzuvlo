@@ -45,7 +45,7 @@ const GridFeature = () => {
           {/* second */}
           <div className="flex flex-col gap-4 lg:col-span-8 xlg:gap-8">
             {/* top one */}
-            <div className="single-content flex w-full flex-col items-center justify-between gap-4 bg-[#F94F64] px-8 py-4 lg:flex-row xl:gap-0 xl:px-[46px] xl:py-1.5">
+            <div className="single-content flex w-full flex-col items-center justify-start gap-4 bg-[#F94F64] px-8 py-4 lg:flex-row xl:gap-6 xl:px-[46px] xl:py-1.5">
               <div className="space-y-4">
                 <CommonTitle color=" #131313">24/7 Support</CommonTitle>
 
@@ -55,9 +55,9 @@ const GridFeature = () => {
                 </CommonSubTItle>
               </div>
 
-              <div className="h-[250px] w-[300px] xl:h-[295px] xl:w-[375px]">
+              <div className="h-[150px] w-[300px] xl:h-[295px] xl:w-[375px]">
                 <img
-                  className="h-full w-full object-contain xl:object-cover"
+                  className="h-full w-full object-cover xl:object-contain xlg:object-cover"
                   src={figure2}
                   alt=""
                 />
@@ -66,9 +66,9 @@ const GridFeature = () => {
 
             {/* lower one */}
             <div className="flex flex-col gap-4 lg:flex-row xlg:gap-8">
-              <div className="single-content flex-1 bg-[#C00E01] px-8 py-5">
+              <div className="single-content flex flex-1 flex-col items-center bg-[#C00E01] px-8 py-5">
                 {/* image */}
-                <div className="mx-auto mb-6 h-[135px] w-[180px] xl:h-[145px] xl:w-[220px]">
+                <div className="mx-auto mb-6 h-[135px] w-[220px] xl:h-[145px] xl:w-[280px]">
                   <img
                     src={figure3}
                     alt=""
@@ -76,7 +76,7 @@ const GridFeature = () => {
                   />
                 </div>
 
-                <div className="space-y-1">
+                <div className="w-full space-y-1">
                   <CommonTitle color="#FFF">Subscriptions</CommonTitle>
 
                   <CommonSubTItle color="#FFF">
@@ -85,7 +85,7 @@ const GridFeature = () => {
                 </div>
               </div>
               <div className="single-content relative flex-1 bg-[#FF2919] px-8 pt-6">
-                <div className="mb-24 space-y-4 xl:mb-0">
+                <div className="mb-28 space-y-4 xl:mb-0">
                   <CommonTitle color="#FFF">Smart Messaging</CommonTitle>
 
                   <CommonSubTItle color="#FFF">
@@ -94,11 +94,11 @@ const GridFeature = () => {
                 </div>
 
                 {/* image */}
-                <div className="absolute -bottom-[260px] left-1/2 h-[395px] w-[370px] -translate-x-1/2 scale-[.7] overflow-hidden rounded-3xl xl:-bottom-[240px] xl:scale-100">
+                <div className="absolute -bottom-[40px] left-1/2 h-[180px] w-[380px] -translate-x-1/2 scale-[.7] overflow-hidden rounded-3xl xl:scale-100 xl:bottom-0">
                   <img
                     src={figure4}
                     alt=""
-                    className="h-full w-full object-cover"
+                    className="h-full w-full object-contain"
                   />
                 </div>
               </div>
@@ -125,7 +125,7 @@ const GridFeature = () => {
               />
             </div>
           </div>
-          <div className="single-content relative bg-[#F94F64] p-5 lg:col-span-5 xl:col-span-4 xl:p-10">
+          <div className="single-content relative bg-[#F94F64] p-8 lg:col-span-5 xl:col-span-4 xl:p-10">
             <div className="mb-24 space-y-4 xl:mb-0">
               <CommonTitle color="#000000">Advanced Insights</CommonTitle>
 
@@ -135,11 +135,11 @@ const GridFeature = () => {
             </div>
 
             {/* images */}
-            <div className="absolute -bottom-[140px] -right-5 h-[250px] w-[285px] xl:-bottom-[150px] xl:right-0 xl:h-[375px] xl:w-[375px]">
+            <div className="absolute left-1/2 h-[120px] w-[200px] -translate-x-1/2 bottom-0 xl:bottom-[0px] xl:h-[250px] xl:w-[375px]">
               <img
                 src={figure6}
                 alt=""
-                className="h-full w-full object-contain xl:object-cover"
+                className="h-full w-full object-cover xl:object-cover"
               />
             </div>
           </div>
