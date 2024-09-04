@@ -112,7 +112,7 @@ const GridFeature = () => {
             <div className="relative z-30 space-y-4">
               <CommonTitle color="#292929">Pay-to-View</CommonTitle>
 
-              <CommonSubTItle color="#FFFFFF">
+              <CommonSubTItle color="#292929">
                 Send as a group with friends or individually
               </CommonSubTItle>
             </div>
