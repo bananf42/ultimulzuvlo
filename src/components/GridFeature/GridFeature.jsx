@@ -55,7 +55,7 @@ const GridFeature = () => {
                 </CommonSubTItle>
               </div>
 
-              <div className="h-[150px] w-[300px] xl:h-[295px] xl:w-[500px]">
+              <div className="h-[150px] w-[300px] xl:h-[295px] xl:w-[550px]">
                 <img
                   className="h-full w-full object-cover xl:object-contain xlg:object-cover"
                   src={figure2}
