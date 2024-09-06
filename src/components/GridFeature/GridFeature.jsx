@@ -55,7 +55,7 @@ const GridFeature = () => {
                 </CommonSubTItle>
               </div>
 
-              <div className="h-[225px] w-[450px] xl:h-[443px] xl:w-[563px]">
+              <div className="h-[150px] w-[300px] xl:h-[295px] xl:w-[420px]">
                 <img
                   className="h-full w-full object-cover xl:object-contain xlg:object-cover"
                   src={figure2}
@@ -110,9 +110,9 @@ const GridFeature = () => {
         <div className="flex flex-col gap-4 lg:grid lg:grid-cols-12 xlg:gap-8">
           <div className="single-content relative bg-[#DB0A15] py-0 pb-36 pl-[46px] pt-5 lg:col-span-7 xl:col-span-8 xl:py-[145px]">
             <div className="relative z-30 space-y-4">
-              <CommonTitle color="#FFFFFF">Pay-to-View</CommonTitle>
+              <CommonTitle color="#000000">Pay-to-View</CommonTitle>
 
-              <CommonSubTItle color="#FFFFFF">
+              <CommonSubTItle color="#000000">
                 Send as a group with friends or individually
               </CommonSubTItle>
             </div>
