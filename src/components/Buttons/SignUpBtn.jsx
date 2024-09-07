@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const SignUpBtn = ({ size = "sm", version = "sign-up", url = "https://zuvlo.com/auth/register" }) => {
+const SignUpBtn = ({ size = "sm", version = "sign-up", url = "https://zuvlo.com/auth/register" ,replace }) => {
   return (
     <a
       className={`rounded-[160px] text-base font-medium leading-5 ${
@@ -13,7 +13,7 @@ const SignUpBtn = ({ size = "sm", version = "sign-up", url = "https://zuvlo.com/
       href={url}
     >
       {" "}
-      {version === "login" ? "Login" : "Sign Up"}
+      {version === "login" ? "Login" : replace? replace: "Sign Up" }
     </a>
   );
 };
@@ -21,7 +21,8 @@ const SignUpBtn = ({ size = "sm", version = "sign-up", url = "https://zuvlo.com/
 SignUpBtn.propTypes = {
   size: PropTypes.string,
   version: PropTypes.string,
-  url: "string",
+  url: PropTypes.string,
+  replace: PropTypes.string,
 };
 
 export default SignUpBtn;

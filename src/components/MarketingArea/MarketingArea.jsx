@@ -20,7 +20,7 @@ const MarketingArea = () => {
 
       {/* content wrapper */}
       <div className="flex flex-col gap-5 sm:flex-row">
-        <div className="relative flex-1 overflow-hidden rounded-3xl bg-[#E4F1FF] px-8 pb-[200px] pt-8 xl:px-[60px] xl:pb-[250px] xl:pt-[64px]">
+        <div className="relative flex-1 overflow-hidden rounded-3xl bg-[#E4F1FF] px-8 pb-[200px] pt-8 xl:px-[60px] xl:pb-[250px] xl:pt-[64px] xl:pb-[260px]">
           <div className="mx-auto max-w-[380px]">
             <h4
               style={{
@@ -46,7 +46,7 @@ const MarketingArea = () => {
             <img src={feature1} alt="" className="h-full w-full object-cover" />
           </div>
         </div>
-        <div className="relative flex-1 overflow-hidden rounded-3xl bg-[#E4E7FF] px-8 pb-[200px] pt-8 xl:px-[60px] xl:pt-[64px] xl:pb-[260px]">
+        <div className="relative flex-1 overflow-hidden rounded-3xl bg-[#E4E7FF] px-8 pb-[200px] pt-8 xl:px-[60px] xl:pt-[64px]">
           <div className="mx-auto mb-4 max-w-[380px]">
             <h4
               style={{

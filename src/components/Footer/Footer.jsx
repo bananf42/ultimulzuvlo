@@ -4,6 +4,7 @@ import { FaInstagram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { FaReddit } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
+import SignUpBtn from "../Buttons/SignUpBtn";
 
 const Footer = () => {
   const linkStyle = `p-1.5 flex items-center justify-center rounded-lg bg-[#FF2919] `;
@@ -51,13 +52,13 @@ const Footer = () => {
         </div>
 
         {/* right */}
-        <div className=" px-5 xl:px-10 py-7 bg-[#262626] rounded-3xl max-w-[605px] ">
+        <div className=" px-5 xl:px-10 py-7 bg-[#262626] rounded-3xl max-w-[405px] ">
           <p className="text-base leading-6  text-[#A1A1A1]">
-            Sign up for our newsletter and join the growing Zuvlo community.
+            Join the growing Zuvlo community.
           </p>
 
           {/* newsletter form */}
-          <form className="pt-6">
+          <form className="pt-6 hidden">
             <div className="flex flex-col xl:flex-row items-center gap-4 xl:gap-2.5">
               <input
                 type="text"
@@ -80,6 +81,12 @@ const Footer = () => {
               </button>
             </div>
           </form>
+
+          {/* button wrapper */}
+          <div className="flex items-center justify-center gap-5  mt-10">
+            <SignUpBtn/>
+            <SignUpBtn url="" replace={'Login'} />
+          </div>
         </div>
       </div>
 
