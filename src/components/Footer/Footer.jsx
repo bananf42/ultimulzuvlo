@@ -54,7 +54,7 @@ const Footer = () => {
         {/* right */}
         <div className=" px-5 xl:px-10 py-7 bg-[#262626] rounded-3xl max-w-[405px] ">
           <p className="text-base leading-6  text-[#A1A1A1]">
-            Join the growing Zuvlo community.
+            Ready to join the amazing Zuvlo community?
           </p>
 
           {/* newsletter form */}
@@ -85,7 +85,7 @@ const Footer = () => {
           {/* button wrapper */}
           <div className="flex items-center justify-center gap-5  mt-10">
             <SignUpBtn/>
-            <SignUpBtn url="" replace={'Login'} />
+            <SignUpBtn url="https://zuvlo.com/auth/login"" replace={'Login'} />
           </div>
         </div>
       </div>
