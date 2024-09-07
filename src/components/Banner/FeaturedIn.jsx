@@ -7,7 +7,7 @@ const FeaturedIn = () => {
   const brandLogos = [banner1, banner2, banner2, banner3, banner4];
 
   return (
-    <div>
+    <div className="hidden">
       <div className="w-fit mx-auto text-center text-[24px] font-bold leading-8 text-textBlack  ">
         <p>Featured</p>
         <p>In</p>
