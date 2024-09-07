@@ -110,9 +110,9 @@ const GridFeature = () => {
         <div className="flex flex-col gap-4 lg:grid lg:grid-cols-12 xlg:gap-8">
           <div className="single-content relative bg-[#DB0A15] py-0 pb-36 pl-[46px] pt-5 lg:col-span-7 xl:col-span-8 xl:py-[145px]">
             <div className="relative z-30 space-y-4">
-              <CommonTitle color="#000000">Pay-to-View</CommonTitle>
+              <CommonTitle color="#FFFFFF">Pay-to-View</CommonTitle>
 
-              <CommonSubTItle color="#000000">
+              <CommonSubTItle color="#FFFFFF">
                 Send as a group with friends or individually
               </CommonSubTItle>
             </div>
