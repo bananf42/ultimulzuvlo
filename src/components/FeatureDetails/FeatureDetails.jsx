@@ -18,14 +18,14 @@ const FeatureDetails = () => {
       title: "Sell Physical or Digital Items in Your Personal Store",
       subtitle:
         "Boost your revenue by selling both physical and digital items to your fans.",
-      highlightWord: "Store",
+      highlightWord: "Your Personal Store",
     },
     {
-      category: "💬 Messaging",
-      title: "Engage with Your Fans Through Direct Messaging",
+      category: "📱 Video Calls",
+      title: "Engage with Your Fans Through Paid Video Calls",
       subtitle:
-        "Engage with your fans via Direct Messages and sell them exclusive PPV content.",
-      highlightWord: "Messaging",
+        "Engage with your fans via Paid Video Calls, without having to leave our platform.",
+      highlightWord: "Paid Video Calls",
     },
   ];
 
@@ -83,13 +83,13 @@ const FeatureDetails = () => {
               </a>
             </div>
             <div ref={elem3} className={featureHolder}>
-              <p className={featureIntro}>💬 Messaging</p>
+              <p className={featureIntro}>📱 Video Calls</p>
               <h3 className={featureTitle}>
-                Engage with Your Fans Through Direct{" "}
-                <span className="text-pinkRed">Messaging</span> Access
+                Engage with Your Fans Through Paid Video Calls{" "}
+                <span className="text-pinkRed">Paid Video Calls</span> Access
               </h3>
               <p className={featureDesc}>
-                Engage with your fans via Direct Messages and sell them exclusive PPV content.
+                Engage with your fans via Paid Video Calls, without having to leave our platform.
               </p>
               <a className={featureBtn} href="https://zuvlo.com/auth/register">
                 {" "}
