@@ -1,5 +1,6 @@
 import feature1 from "../../assets/images/marketing-feature1.png";
-import feature2 from "../../assets/images/marketing-feature2.png";
+import feature2 from "../../assets/images/marketing-feature2-desktop.png";
+import feature3 from "../../assets/images/marketing-feature2-mobile.png";
 import SignUpBtn from "../Buttons/SignUpBtn";
 
 import banner from "../../assets/images/sign-up-banner.png";
@@ -101,7 +102,8 @@ const MarketingArea = () => {
 
           {/* images */}
           <div className="absolute -bottom-5 left-1/2 h-[220px] w-[100%] -translate-x-1/2 overflow-hidden xl:h-[240px] xl:w-[720px]">
-            <img src={feature2} alt="" className="h-full w-full object-cover" />
+            <img src={feature2} alt="" className="h-full w-full object-cover hidden xl:block" />
+            <img src={feature3} alt="" className="h-full w-full object-cover block xl:hidden" />
           </div>
         </div>
       </div>
