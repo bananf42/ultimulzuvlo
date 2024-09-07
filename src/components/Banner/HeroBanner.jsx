@@ -66,7 +66,7 @@ const HeroBanner = () => {
   return (
     <section
       id="hero--banner"
-      className="container relative flex flex-col items-center pb-16 pt-12 xl:block xl:pb-[100px] xl:pt-12 xlg:pt-[160px]"
+      className="container relative flex flex-col items-center pb-0 pt-12 xl:block xl:pb-[100px] xl:pt-12 xlg:pt-[160px]"
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
     >
