@@ -85,7 +85,7 @@ const Footer = () => {
           {/* button wrapper */}
           <div className="flex items-center justify-center gap-5  mt-10">
             <SignUpBtn/>
-            <SignUpBtn url="https://zuvlo.com/auth/login"" replace={'Login'} />
+            <SignUpBtn url="https://zuvlo.com/auth/login" replace={'Login'} />
           </div>
         </div>
       </div>
