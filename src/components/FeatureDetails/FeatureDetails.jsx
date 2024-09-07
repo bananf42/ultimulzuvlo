@@ -86,7 +86,7 @@ const FeatureDetails = () => {
               <p className={featureIntro}>📱 Video Calls</p>
               <h3 className={featureTitle}>
                 Engage with Your Fans Through Paid Video Calls{" "}
-                <span className="text-pinkRed">Paid Video Calls</span> Access
+                <span className="text-pinkRed">Paid Video Calls</span>
               </h3>
               <p className={featureDesc}>
                 Engage with your fans via Paid Video Calls, without having to leave our platform.
