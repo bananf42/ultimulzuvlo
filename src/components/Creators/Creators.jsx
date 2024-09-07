@@ -49,7 +49,7 @@ const Creators = () => {
   ];
 
   return (
-    <section className="py-[60px] xlg:py-[150px]">
+    <section className="py-[60px] pt-0 xlg:py-[150px]">
       <SectionTitle>Trusted by the {`world's`} biggest creators</SectionTitle>
 
       {/* creator slider area */}
