@@ -85,7 +85,7 @@ const FeatureDetails = () => {
             <div ref={elem3} className={featureHolder}>
               <p className={featureIntro}>📱 Video Calls</p>
               <h3 className={featureTitle}>
-                Engage with Your Fans Through Paid Video Calls{" "}
+                Engage with Your Fans Through {" "}
                 <span className="text-pinkRed">Paid Video Calls</span>
               </h3>
               <p className={featureDesc}>
