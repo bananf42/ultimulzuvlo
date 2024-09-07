@@ -11,7 +11,7 @@ const MarketingArea = () => {
     " text-base xl:text-[18px] leading-6 xl:leading-7 text-center";
 
   return (
-    <section className="container pb-14 xl:pb-[150px]">
+    <section className="container mt-[50px] pb-14 xl:pb-[150px]">
       <h3 className="mx-auto max-w-[1020px] pb-14 text-center text-[32px] font-semibold leading-[48px] xl:text-[44px] xl:leading-[56px] xlg:pb-[90px] xlg:text-[55px] xlg:leading-[67px]">
         {" "}
         Master Online Marketing with Ease and Independence, Completely Free{" "}

@@ -10,7 +10,7 @@ import figure6 from "../../assets/images/grid-feature6.png";
 import CommonSubTItle from "./CommonSubTItle";
 const GridFeature = () => {
   return (
-    <section className="container pt-[54px]">
+    <section className="container hidden xl:block pt-[54px]">
       {/* title */}
       <h3 className="text-center text-[32px] font-bold leading-[42px] text-[#333] xl:text-[46px] xl:leading-[56px] xlg:text-[64px] xlg:leading-[84px]">
         Everything You Need to Succeed, All in One Place
